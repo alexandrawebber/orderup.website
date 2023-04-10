@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.text {
+    min-height: 100vh;
+  width: 100%;
+  color: white;
+  display: block;
+}
+
+  .text::before {
+    content: "";
+    background-image: url(images/monika-grabkowska-qSkWlOBHia0-unsplash\ copy.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: 200px;
+    background-position: center;
+    position: absolute;
+    background-size: cover;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.45;
+  }
+
+  .text h1 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+  }
